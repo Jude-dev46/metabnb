@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <Wrapper>
-      <div>{modal && <Modal onConfirm={connectWalletHandler} />}</div>
+      {/* <div>{modal && <Modal onConfirm={connectWalletHandler} />}</div> */}
       <div className="container">
         <header>
           <nav>

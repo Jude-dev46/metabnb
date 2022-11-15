@@ -1,33 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
+import { Button, Header, Icon, Modal } from "semantic-ui-react";
 
-import "./Modal.css";
+function ModalExampleCloseIcon(props) {
+  const [open, setOpen] = useState(false);
 
-const Modal = (props) => {
   return (
-    <div className="modal">
-      <div onClick={props.onConfirm} className="overlay"></div>
-      <div className="modal-content">
-        <h2>Form information</h2>
-        <p>Form Sumbitted </p>
-        <button className="close-modal" onClick={props.onConfirm}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            className="close-icon"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        </button>
-      </div>
-    </div>
+    <Modal
+      closeIcon
+      open={open}
+      trigger={props.onClick}
+      onClose={() => setOpen(false)}
+      onOpen={() => setOpen(true)}
+    >
+      <Header icon="archive" content="Archive Old Messages" />
+      <Modal.Content>
+        <p>Choose your preferred Wallet:</p>
+        <div></div>
+      </Modal.Content>
+      <Modal.Actions>
+        <Button color="red" onClick={() => setOpen(false)}>
+          <Icon name="remove" /> No
+        </Button>
+        <Button color="green" onClick={() => setOpen(false)}>
+          <Icon name="checkmark" /> Yes
+        </Button>
+      </Modal.Actions>
+    </Modal>
   );
-};
+}
 
-export default Modal;
+export default ModalExampleCloseIcon;

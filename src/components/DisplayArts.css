@@ -1,0 +1,24 @@
+.art-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 1440px;
+  margin-left: 80px;
+  height: 963px;
+  background-color: #fff;
+  padding: 0 auto;
+}
+.art-container h2 {
+  position: absolute;
+  width: 817px;
+  height: 60px;
+  left: 400px;
+  top: 39px;
+
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+}

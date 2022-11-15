@@ -1,0 +1,117 @@
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+
+/*
+      MAIN COLOR: #434343;
+      GREY COLOR: #343a40;
+      */
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+header {
+  height: 100vh;
+  /* background-color: orangered; */
+  position: relative;
+}
+.nav-content {
+  width: 1240px;
+  height: 48px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 43px;
+}
+a:link,
+a:visited {
+  display: inline-block;
+  padding-right: 40px;
+  text-decoration: none;
+  color: #434343;
+  font-family: "Red Rose" cursive;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 99px;
+
+  position: absolute;
+  width: 1221px;
+  height: 459px;
+  left: 100px;
+  top: 216px;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+}
+.header-text h1 {
+  width: 646px;
+  height: 146px;
+  font-family: "Red Rose" cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 140%;
+  letter-spacing: -0.02rem;
+
+  color: #434343;
+}
+strong {
+  color: #a02279;
+}
+.header-text p {
+  width: 636px;
+  height: 102px;
+
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #434343;
+}
+.input-form {
+  width: 618.71px;
+  height: 54.08px;
+}
+.input-form input {
+  width: 75%;
+  height: 54.08px;
+  background: rgba(247, 247, 247, 0.1);
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+  padding: 20px;
+}
+.search {
+  width: 25%;
+  height: 56.08px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  color: #fff;
+  border: 1px solid #a02279;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+.header-img {
+  display: flex;
+  gap: 10px;
+  width: 476px;
+  height: 459px;
+}
+.header-img__1 {
+  margin-top: 50px;
+}

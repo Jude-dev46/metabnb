@@ -1,0 +1,8 @@
+.logo-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 100px;
+  gap: 264px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+}

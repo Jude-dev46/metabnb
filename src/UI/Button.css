@@ -1,0 +1,9 @@
+.button {
+  padding: 12px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  color: #fff;
+  border: 1px solid #a02279;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Red Rose" cursive;
+}

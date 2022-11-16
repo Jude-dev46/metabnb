@@ -5,6 +5,7 @@ import Header from "./Header";
 import Logos from "./Logos";
 import Profile from "./Profile";
 
+
 const DisplayPage = () => {
   return (
     <div>

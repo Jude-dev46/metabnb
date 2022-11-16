@@ -1,0 +1,48 @@
+.places {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+
+  position: absolute;
+  left: 6.94%;
+  right: 29.1%;
+  top: 9.51%;
+  bottom: 89.49%;
+}
+.place {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+}
+.place ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+.place ul li {
+  width: 112px;
+  display: inline-block;
+}
+.place-2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  top: -75%;
+  left: 118.5%;
+
+  padding-left: 10px;
+  padding-right: -10px;
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+  color: #434343;
+}
+.place-2 p {
+  margin-top: 12px;
+  align-self: center;
+}

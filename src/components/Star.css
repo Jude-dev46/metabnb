@@ -1,7 +1,6 @@
 .star-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 5px;
-  margin-top: 15px;
+  width: 100%;
+  margin: -12px auto;
+  padding: 6px;
+  position: relative;
 }

@@ -93,7 +93,9 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="navbarText">
               <Nav.Link>Home</Nav.Link>
-              <Nav.Link>Place to stay</Nav.Link>
+              <Nav.Link>
+                <Link to="/placeToStay">Place to stay</Link>
+              </Nav.Link>
               <Nav.Link>Nfts</Nav.Link>
               <Nav.Link>Community</Nav.Link>
             </Nav>

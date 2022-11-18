@@ -1,25 +1,24 @@
 import React from "react";
 
 import Star from "../Star";
-import { Row, Col, Container, Image } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 import "./NftsDisplay.css";
-import art1 from "/Users/HP/metabnb/src/img/Nft5.png";
-import art2 from "/Users/HP/metabnb/src/img/Nft6.png";
-import art3 from "/Users/HP/metabnb/src/img/Nft7.png";
-import art4 from "/Users/HP/metabnb/src/img/Nft8.png";
-import art5 from "/Users/HP/metabnb/src/img/Nft1.png";
-import art6 from "/Users/HP/metabnb/src/img/Nft11.png";
-import art7 from "/Users/HP/metabnb/src/img/Nft12.png";
-import art8 from "/Users/HP/metabnb/src/img/Nft13.png";
-import art9 from "/Users/HP/metabnb/src/img/Nft21.png";
-import art10 from "/Users/HP/metabnb/src/img/Nft3.png";
-import art11 from "/Users/HP/metabnb/src/img/Nft15.png";
-import art12 from "/Users/HP/metabnb/src/img/Nft14.png";
-import art13 from "/Users/HP/metabnb/src/img/Nft16.png";
-import art14 from "/Users/HP/metabnb/src/img/Nft17.png";
-import art15 from "/Users/HP/metabnb/src/img/Nft18.png";
-import art16 from "/Users/HP/metabnb/src/img/Nft19.png";
+import art1 from "../../img/Nft5.png";
+import art2 from "../../img/Nft6.png";
+import art3 from "../../img/Nft7.png";
+import art4 from "../../img/Nft8.png";
+import art5 from "../../img/Nft1.png";
+import art6 from "../../img/Nft11.png";
+import art7 from "../../img/Nft12.png";
+import art8 from "../../img/Nft13.png";
+import art9 from "../../img/Nft21.png";
+import art11 from "../../img/Nft15.png";
+import art12 from "../../img/Nft14.png";
+import art13 from "../../img/Nft16.png";
+import art14 from "../../img/Nft17.png";
+import art15 from "../../img/Nft18.png";
+import art16 from "../../img/Nft19.png";
 // import art17 from "/Users/HP/metabnb/src/img/Nft20.png";
 
 const NftsDisplay = () => {

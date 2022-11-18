@@ -11,7 +11,7 @@ import art6 from "../img/Nft6.png";
 import art7 from "../img/Nft7.png";
 import art8 from "../img/Nft8.png";
 import Star from "./Star";
-import { Row, Col, Container, Image } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 const Nfts = () => {
   return (

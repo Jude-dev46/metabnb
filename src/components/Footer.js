@@ -3,7 +3,7 @@ import React from "react";
 import "./Footer.css";
 import right from "../img/copyright.png";
 
-import { Row, Col, Container, Image } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 const Footer = () => {
   return (

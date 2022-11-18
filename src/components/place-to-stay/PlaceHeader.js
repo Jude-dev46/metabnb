@@ -3,13 +3,10 @@ import React, { useState } from "react";
 import "./PlaceHeader.css";
 import Button from "../../UI/Button";
 
-import logo from "/Users/HP/metabnb/src/img/Group.png";
-import { Link } from "react-router-dom";
+import logo from "../../img/Group.png";
+// import { Link } from "react-router-dom";
 import {
-  Row,
-  Col,
   Container,
-  Image,
   Nav,
   Navbar,
   Modal,

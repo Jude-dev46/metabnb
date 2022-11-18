@@ -2,7 +2,6 @@ import React from "react";
 
 import "./DisplayArts.css";
 import Nfts from "./Nfts";
-import { Row, Col, Container, Image } from "react-bootstrap";
 
 const DisplayArts = () => {
   return (

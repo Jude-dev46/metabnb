@@ -4,7 +4,7 @@
   position: relative;
   margin: auto;
   /* min-height: 300px; */
-  max-height: 2000px;
+  min-height: 2000px;
   top: 50px;
 }
 .row-image__1 {

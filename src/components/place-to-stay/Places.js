@@ -1,15 +1,15 @@
 import React from "react";
 
 import "./Places.css";
-import vector from "/Users/HP/metabnb/src/img/vector.png";
-import { Row, Col, Container, Image } from "react-bootstrap";
+import vector from "../../img/vector.png";
+import { Row, Col, Container } from "react-bootstrap";
 
 const Places = () => {
   return (
     <div className="places">
       <Container>
         <Row className="place">
-          <Col xs={12} md={2}>
+          <Col xs={12} md={9}>
             <ul>
               <li>Restaurant</li>
               <li>Cottage</li>
@@ -21,10 +21,16 @@ const Places = () => {
               <li>Farm</li>
             </ul>
           </Col>
-          <Col xs={4} md={2}>
+          <Col xs={12} md={3}>
             <div className="place-2">
-              <p>Location</p>
-              <img src={vector} alt="vector" />
+              <Row>
+                <Col xs={8} md={10}>
+                  <p>Location</p>
+                </Col>
+                <Col xs={4} md={2}>
+                  <img src={vector} alt="vector" />
+                </Col>
+              </Row>
             </div>
           </Col>
         </Row>

@@ -9,7 +9,7 @@ const Places = () => {
     <div className="places">
       <Container>
         <Row className="place">
-          <Col xs={12} md={9}>
+          <Col xs={10} md={9}>
             <ul>
               <li>Restaurant</li>
               <li>Cottage</li>

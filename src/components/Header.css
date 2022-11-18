@@ -16,6 +16,7 @@
 }
 header {
   height: 100vh;
+  /* background-color: orangered; */
   position: relative;
 }
 .nav-content {
@@ -111,10 +112,10 @@ strong {
   margin-top: 0px;
 }
 .image-3 {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .image-4 {
-  margin-top: 5px;
+  margin-top: -15px;
 }
 .navigation {
   background-color: #fff;

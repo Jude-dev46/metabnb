@@ -20,30 +20,3 @@ Link:visited {
   color: #434343;
   font-family: "Red Rose" cursive;
 }
-.modal-body1 button {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 760px;
-  padding: 10px;
-  margin-bottom: 20px;
-
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-@media only screen and (min-width: 150px) and (max-width: 600px) {
-  .modal-body1 button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 320px;
-    padding: 10px;
-    margin-bottom: 20px;
-
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-}

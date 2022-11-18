@@ -32,3 +32,14 @@
   text-align: left;
 
 }
+
+@media only screen and (min-width: 150px) and (max-width: 600px) { 
+  .place ul {
+    width: 100%;
+    display: block;
+    padding: 14px;
+  }
+  .place ul li {
+    padding: 12px;
+  }
+}

@@ -39,6 +39,7 @@ const PlaceHeader = () => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+          {" "}
           <div className="modal-body1">
             <p>Choose your preferred wallet</p>
             <button>

@@ -4,7 +4,6 @@ import "./PlaceHeader.css";
 import Button from "../../UI/Button";
 
 import logo from "../../img/Group.png";
-// import { Link } from "react-router-dom";
 import { Container, Nav, Navbar, Modal } from "react-bootstrap";
 import metamask from "../../img/metamask.png";
 import walletConnect from "../../img/wallet-connect.png";
@@ -80,13 +79,15 @@ const PlaceHeader = () => {
 
       <Navbar collapseOnSelect expand="lg" className="navigation">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/home">
             <img src={logo} alt="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="navbarText">
-              <Nav.Link>Home</Nav.Link>
+              <Nav.Link href="/home" to="<DisplayPage />">
+                Home
+              </Nav.Link>
               <Nav.Link>Place to stay</Nav.Link>
               <Nav.Link>Nfts</Nav.Link>
               <Nav.Link>Community</Nav.Link>

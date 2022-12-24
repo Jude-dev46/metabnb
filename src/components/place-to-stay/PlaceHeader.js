@@ -85,7 +85,7 @@ const PlaceHeader = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="navbarText">
-              <Nav.Link href="/home" to="<DisplayPage />">
+              <Nav.Link href="/" to="<DisplayPage />">
                 Home
               </Nav.Link>
               <Nav.Link>Place to stay</Nav.Link>
